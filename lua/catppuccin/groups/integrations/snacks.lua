@@ -161,6 +161,11 @@ function M.get()
 			fg = C.flamingo,
 			bg = C.none,
 		}
+		hlgroups["SnacksPickerTitle"] = {
+			fg = C.flamingo,
+			bg = C.mantle,
+		}
+		hlgroups["SnacksPickerPreviewTitle"] = { link = "SnacksPickerTitle" }
 	end
 
 	return hlgroups

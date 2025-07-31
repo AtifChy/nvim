@@ -72,7 +72,7 @@ function M.get()
 		WarningMsg = { fg = C.yellow }, -- warning messages
 		Whitespace = { fg = C.surface1 }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
 		WildMenu = { bg = C.overlay0 }, -- current match in 'wildmenu' completion
-		WinBar = { fg = C.rosewater },
+		WinBar = { fg = C.rosewater, bg = C.mantle },
 		WinBarNC = { link = "WinBar" },
 		WinSeparator = { fg = O.transparent_background and C.surface1 or C.crust },
 	}

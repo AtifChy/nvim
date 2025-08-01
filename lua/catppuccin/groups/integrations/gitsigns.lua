@@ -11,7 +11,7 @@ function M.get()
 			GitSignsChange = { fg = C.yellow }, -- diff mode: Changed line |diff.txt|
 			GitSignsDelete = { fg = C.red }, -- diff mode: Deleted line |diff.txt|
 
-			GitSignsCurrentLineBlame = { fg = C.surface1 },
+			-- GitSignsCurrentLineBlame = { fg = C.surface1 },
 
 			GitSignsAddPreview = { fg = C.green, bg = C.none },
 			GitSignsDeletePreview = { fg = C.red, bg = C.none },
@@ -29,7 +29,7 @@ function M.get()
 			GitSignsChange = { fg = C.yellow }, -- diff mode: Changed line |diff.txt|
 			GitSignsDelete = { fg = C.red }, -- diff mode: Deleted line |diff.txt|
 
-			GitSignsCurrentLineBlame = { fg = C.surface1 },
+			-- GitSignsCurrentLineBlame = { fg = C.surface1 },
 
 			GitSignsAddPreview = { link = "DiffAdd" },
 			GitSignsDeletePreview = { link = "DiffDelete" },
